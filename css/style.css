@@ -4,12 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap');
 /*Vars*/
 :root {
-    --Background-Color: #98ff96;
+    --Background-Color: #ffe364;
     --Background-Color-Light: #5D9ADE;
     --Background-Color-Dark: #002973;
     --Font-Color: #161616;
     --Font-Color1: #005216;
-    --Font-Color2: #fff;
+    --Font-Color2: rgb(224, 223, 223);
 }
 /*Content*/
 html {
@@ -76,7 +76,6 @@ body
     text-transform: uppercase;
     margin-bottom: 0;
     z-index: 1;
-    color: var(--Font-Color2);
     opacity: 1;
 }
 
@@ -87,7 +86,6 @@ body
     font-weight: 300;
     margin-bottom: 0;
     z-index: 1;
-    color: var(--Font-Color2);
 }
 
 main{
@@ -102,7 +100,7 @@ main{
 .menu{
     position: relative;
     margin: 0 auto 0 auto;
-    background-color: var(--Background-Color-Light);
+    background-color: var(--Background-Color);
     width: 10vh;
     border-radius: 3.5vh;
     transition: 0.3s border-radius ease-in-out, 0.3s height ease-in-out;
@@ -179,18 +177,17 @@ main{
     margin-top: 40%;
     z-index: 100;
 }
-
 .hero
 {
     font-family: "Rubik", sans-serif;
-    font-size: 2vw;
+    font-size: 4vh;
     margin: 2em;
     padding: 1em;
     display: flex;
     align-items: center;
     justify-content: right;
-    color: var(--Font-Color2);
 }
+
 .hero .hero-inner
 {
     max-width: 600px;
@@ -224,13 +221,15 @@ main{
 }
 #imagenS .imagen
 {
-    max-height: 220px;
+    max-width: 500px;
     margin-bottom: 2vh;
+    opacity: 1;
 }
 #imagenS
 {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     margin: 1vh auto auto auto;
     max-width: 500px;
