@@ -1,0 +1,248 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap');
+/*Vars*/
+:root {
+    --Background-Color: #98ff96;
+    --Background-Color-Light: #5D9ADE;
+    --Background-Color-Dark: #002973;
+    --Font-Color: #161616;
+    --Font-Color1: #005216;
+    --Font-Color2: #fff;
+}
+/*Content*/
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: var(--Background-Color-Light);
+}
+
+#particles-js
+{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.supreme-background
+{
+    background-color: var(--Background-Color-Light);
+}
+
+.header
+{
+  position: relative;
+  padding: 1em;
+}
+
+.header:before
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  opacity: 0.4;
+  background-image: url("https://imgur.com/jg55WHi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-content
+{
+    position: relative;
+    opacity: 2;
+}
+.site-title-wrapper
+{
+    margin: 2em 4em;
+    
+}
+.site-title-wrapper h1
+{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    z-index: 1;
+    color: var(--Font-Color2);
+    opacity: 1;
+}
+
+.site-title-wrapper div
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.5em;
+    font-weight: 300;
+    margin-bottom: 0;
+    z-index: 1;
+    color: var(--Font-Color2);
+}
+
+main{
+    max-width: 1080px;
+    margin: 0em auto;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu{
+    position: relative;
+    margin: 0 auto 0 auto;
+    background-color: var(--Background-Color-Light);
+    width: 10vh;
+    border-radius: 3.5vh;
+    transition: 0.3s border-radius ease-in-out, 0.3s height ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+ }
+
+.menu--closed{
+    height: 10vh;
+}
+
+.menu--open{
+    height: 200px;
+}
+
+.button-submenu{
+    transition: 0.3s transform ease-in-out, 0.3s opacity ease-in-out;;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 5.5vh;
+    height: 5.5vh;
+    left: 23%;
+    top: 2.3vh;
+    opacity: 1;
+}
+
+.button-submenu:hover {
+    opacity: 0.6;
+}
+
+.button-submenu span{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 20%;
+}
+
+.menu--open .button-submenu{
+    transform-origin: center;
+    transform: rotate(90deg);
+}
+
+.tools{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    height: 45%;
+    justify-content: space-between;
+    transition: 0.3s margin ease-in-out;
+}
+
+
+.tools .icon{
+    transition: 0.2s transform ease-in-out;
+}
+
+.tools .icon:hover{
+    transform: scale(0.8);
+}
+
+.tools--hidden{
+    margin-top: 400px;
+    z-index: -100;
+}
+
+.tools--visible{
+    margin-top: 40%;
+    z-index: 100;
+}
+
+.hero
+{
+    font-family: "Rubik", sans-serif;
+    font-size: 2vw;
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: var(--Font-Color2);
+}
+.hero .hero-inner
+{
+    max-width: 600px;
+    height: 100%;
+}
+
+
+.content
+{
+    font-size: 3vh;
+    margin: 5vw 5vw ;
+    padding: 3vh;
+    background-color: var(--Font-Color2);
+    opacity: 0.97;
+    border-radius: 1vw;
+}
+
+.parrafo1
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: left;
+}
+.text
+{
+    text-align: justify;
+    max-width: 580px;
+    margin:  1vh auto 1vh auto;
+}
+#imagenS .imagen
+{
+    max-height: 220px;
+    margin-bottom: 2vh;
+}
+#imagenS
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1vh auto auto auto;
+    max-width: 500px;
+    height: auto;
+}
+
+.btn-wsp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+ 
+}
+.btn-wsp:hover{
+    transform: scale(1.1);
+}
