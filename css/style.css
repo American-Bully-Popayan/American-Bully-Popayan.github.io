@@ -210,6 +210,16 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: left;
+}
+.parrafo2
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
     justify-content: center;
     justify-content: left;
 }
@@ -217,23 +227,32 @@ main{
 {
     text-align: justify;
     max-width: 580px;
-    margin:  1vh auto 1vh auto;
+    height: auto;
+    margin:  1vh;
 }
-#imagenS .imagen
+#imagenA .imagen
 {
-    max-width: 500px;
-    margin-bottom: 2vh;
-    opacity: 1;
+    border-radius: 2em;
+    width: 100%;
+    height: auto;
 }
-#imagenS
+#imagenA
 {
+    width: 100%;
+    max-width: 27em;
+    margin: 1vh;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1vh auto auto auto;
-    max-width: 500px;
+}
+.imagenB
+{
+    border-radius: 2em;
+    width: 80%;
     height: auto;
+    margin: 1vh;
 }
 
 .btn-wsp{
@@ -244,4 +263,10 @@ main{
 }
 .btn-wsp:hover{
     transform: scale(1.1);
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 6vh;
+    font-weight: 300;
+    margin-bottom: 0;
 }
