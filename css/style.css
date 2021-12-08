@@ -197,6 +197,10 @@ main{
 
 .content
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 3vh;
     margin: 5vw 5vw ;
     padding: 3vh;
@@ -239,7 +243,7 @@ main{
 #imagenA
 {
     width: 100%;
-    max-width: 27em;
+    max-width: 26em;
     margin: 1vh;
     display: flex;
     flex-wrap: wrap;
@@ -247,7 +251,7 @@ main{
     align-items: center;
     justify-content: center;
 }
-.video
+#imagenA .video
 {
     width: 100%;
     height: auto;
@@ -361,11 +365,11 @@ h3{
     #imagenGaleria
     {
         width: 100%;
-        max-width: 100%;
+        max-width: 500em;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
+        padding: 2vh;
     }
     #imagenGaleria .imagen
     {
@@ -380,7 +384,7 @@ h3{
     #imagenGaleria
     {
         width: 100%;
-        max-width: 100%;
+        max-width: 60em;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -391,6 +395,91 @@ h3{
         border-radius: 3vh;
         width: 100%;
         height: auto;
-        margin: 1vh;
+        margin-bottom: 1vh;
     }
+}
+
+.lista_hero
+{
+    list-style-position: outside;
+    list-style-image: url("../assets/images/Check_icon.png");
+    font-size: 1em;
+}
+
+button
+{
+    padding: 0.9375em 2.5em;
+    background: var(--Background-Color);
+    border: 0.0625em solid var(--Background-Color);
+    color: var(--Background-Color-Dark);
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 0.5em;
+    transition: all 0.5s ease;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+}
+button:hover
+{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+    color: var(--Font-Color);
+}
+aside {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: var(--Font-Color2);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    z-index: 2;
+    font-family: "Rubik", sans-serif;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.open {
+    opacity: 1;
+    visibility: visible;
+  }
+.close {
+    position: fixed;
+    top: 2.5em;
+    right: 4.75em;
+    color: white;
+    z-index: 3;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.close span,
+.close span:before,
+.close span:after {
+    border-radius: 0.25em;
+    height: 0.3125em;
+    width: 2.1875em;
+    background: white;
+    position: absolute;
+    display: block;
+    content: "";
+  }
+.close span {
+    background: transparent;
+}
+.close span:before {
+    transform: rotate(45deg);
+}
+.close span:after {
+    transform: rotate(-45deg);
+} 
+.outer-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5.3125em;
+    height: 5.3125em;
+    cursor: pointer;
 }

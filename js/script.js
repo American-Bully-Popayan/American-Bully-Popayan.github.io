@@ -18,6 +18,13 @@ $(document).ready(function() {
 
 
 });
+(function($) {
+  $(function() {
+    $('.toggle-overlay').click(function() {
+      $('aside').toggleClass('open');
+    });
+  });
+})(jQuery);
 particlesJS(
     {
       "particles": {
