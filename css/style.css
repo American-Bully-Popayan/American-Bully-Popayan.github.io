@@ -402,8 +402,8 @@ h3{
 .lista_hero
 {
     list-style-position: outside;
-    list-style-image: url("../assets/images/Check_icon.png");
-    font-size: 1em;
+    list-style-image: url("https://imgur.com/uJ7E7jJ.png");
+    font-size: 3vh;
 }
 
 button
