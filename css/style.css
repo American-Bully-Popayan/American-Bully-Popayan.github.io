@@ -216,7 +216,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    justify-content: left;
+    width: 100%;
 }
 .parrafo2
 {
@@ -225,12 +225,15 @@ main{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    justify-content: left;
+    width: 100%;
 }
 .text
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: justify;
-    max-width: 580px;
+    max-width: 570px;
     height: auto;
     margin:  1vh;
 }
@@ -378,6 +381,12 @@ h3{
         height: auto;
         margin: 1vh;
     }
+
+    .Iparrafo
+    {
+        visibility: hidden;
+        position:absolute;
+    }
 }
 @media screen and (max-width: 425px)
 {
@@ -396,6 +405,11 @@ h3{
         width: 100%;
         height: auto;
         margin-bottom: 1vh;
+    }
+    .Iparrafo
+    {
+        visibility: visible;
+        position: relative;
     }
 }
 
@@ -482,4 +496,14 @@ aside {
     width: 5.3125em;
     height: 5.3125em;
     cursor: pointer;
+}
+a
+{
+    text-decoration: line;
+    color: var(--Background-Color-Light);
+}
+
+a:visited
+{
+    color: var(--Background-Color-Dark);
 }
