@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="Media/Logo-min.png">
     <title>American Bully</title>
-    <link type="text/css" rel="stylesheet" href="css/style.php">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div id="particles-js"></div>
@@ -23,7 +23,7 @@
         </div>
         <button class="toggle-overlay">Galeria de fotos</button><br>
         <h3>Nuestro Proyecto</h3>
-        <div class= "parrafo1">
+        <div class= "parrafo">
             <div class="text">
             <p>Mi familia y yo hicimos nuestro proyecto en casa con nuestra American Bully! Invitamos a conocer nuestra camada de cachorros para la venta: Los pap&aacute;s tienen Pedigr&iacute;: cada uno tiene su Registro ABKC, que es la manera abreviada de American Bully Kennel Club; este es el registro oficial mundial para el American Bully. Esta raza fue creada y criada selectivamente para ofrecer Lealtad, estabilidad y excelente relaci&oacute;n con las personas, especialmente los ni&ntilde;os, adem&aacute;s de ser una raza de baja energ&iacute;a, lo cual le permite vivir en peque&ntilde;os espacios y con poco ejercicio. Ofrece un comportamiento y una compa&ntilde;&iacute;a muy dulce.</p>
             <span id="imagenA" class="Iparrafo"><img class="imagen" src="https://imgur.com/R3ndvcN.jpeg" alt="venta de cachorros bully_5" title="venta de cachorros bully_5"></span>
@@ -35,7 +35,7 @@
             <div id="imagenA"><img class="imagen" src="https://imgur.com/aHrbGgU.jpeg" alt="perros american bully en venta_1" title="perros american bully en venta_1"></div>
         </div>
         <h3>Origen de la raza American Bully </h3>
-        <div class= "parrafo2">
+        <div class= "parrafo" id="reverse">
             <div class="text">
             <p>Es una raza que tiene sus ra&iacute;ces en los Estados Unidos. Su nacimiento se sit&uacute;a en la d&eacute;cada de 1980. aunque su desarrollo y el reconocimiento fue en la d&eacute;cada de 1990.<br>
             Surge del cruce de varias razas como el American Staffordshire terrier, Staffordshire bull terrier, el Pitbull terrier, el bulldog ingl&eacute;s, el bulldog americano o el bulldog francés. Se ha desarrollado con la idea de que sea un perfecto perro de compa&ntilde;&iacute;a. 
@@ -44,7 +44,7 @@
             <div id="imagenA"><img class="imagen" src="https://imgur.com/s6plQBT.png" alt="perros american bully en venta_2" title="perros american bully en venta_2"></div>
         </div>
         <h3>Car&aacute;cter de la raza American Bully</h3>
-        <div class= "parrafo1">
+        <div class= "parrafo">
             <div class="text">
             <p>Sus criadores buscaban la apariencia potente del stafford, pero con las caracter&iacute;sticas m&aacute;s celebradas de los bulldogs, que son perros que destacan por un car&aacute;cter especialmente adecuado para convivir en familia. Pusieron especial cuidado en conseguir un perro que fuera un excelente compa&ntilde;ero familiar, con un temperamento noble y tranquilo. Por lo tanto, a pesar de su aspecto f&iacute;sico imponente y de apariencia robusta, no es un perro f&iacute;sicamente fuerte, ya que no se cre&oacute; para ninguna funci&oacute;n de trabajo. Seg&uacute;n los expertos, &eacute;ste es un perro pensado para criarse en un hogar con ni&ntilde;os, son perros muy d&oacute;ciles y cari&ntilde;osos.<br>
             </p>
@@ -61,11 +61,35 @@
             <p>
             Adem&aacute;s, debido a su car&aacute;cter amigable, son capaces de convivir sin ning&uacute;n problema con otros animales tanto si son de su especie como si pertenecen a otra. Parecen ser conscientes de su fuerza y por ello se muestran cuidadosos en el trato con perros m&aacute;s peque&ntilde;os. Es muy raro que se peleen con otros, aunque sean desconocidos. 
             </p></div>
-            <div id="imagenA"><iframe class="video" src="https://www.youtube.com/embed/-fpwKBr9SNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <iframe class="video" src="https://www.youtube.com/embed/-fpwKBr9SNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
     </div>
 
     <?php include("Contenido/footer.php")?>
+    <!--Galeria-->
+    <aside>
+        <div class="outer-close toggle-overlay">
+          <a class="close"><span></span></a>
+        </div>
+        <div id="imagenGaleria">
+            <img class="imagen" src="https://imgur.com/ZaXHWKs.png" alt="perros american bully en venta_5" title="perros american bully en venta_5">
+            <img class="imagen" src="https://imgur.com/LGq8drV.png" alt="venta de american bully_1" title="venta de american bully_1">
+            <img class="imagen" src="https://imgur.com/KMcN4qQ.png" alt="venta de american bully_2" title="venta de american bully_2">
+            <img class="imagen" src="https://imgur.com/R4IB4Kd.jpeg" alt="venta de american bully_3" title="venta de american bully_3">
+            <img class="imagen" src="https://imgur.com/olNgN6P.png" alt="venta de american bully_4" title="venta de american bully_4">
+            <img class="imagen" src="https://imgur.com/xWZUdGB.png" alt="venta de american bully_5" title="venta de american bully_5">
+            <img class="imagen" src="https://imgur.com/axNRSUW.jpeg" alt="venta de perros bully_1" title="venta de perros bully_1">
+            <img class="imagen" src="https://imgur.com/VEjqGPq.png" alt="venta de perros bully_2" title="venta de perros bully_2">
+            <img class="imagen" src="https://imgur.com/s6plQBT.png" alt="venta de perros bully_3" title="venta de perros bully_3">
+            <img class="imagen" src="https://imgur.com/y2QO9mN.png" alt="venta de perros bully_4" title="venta de perros bully_4">
+            <img class="imagen" src="https://imgur.com/wekpqnn.png" alt="venta de perros bully_5" title="venta de perros bully_5">
+            <img class="imagen" src="https://imgur.com/qo8QGF0.png" alt="american bully en venta_1" title="american bully en venta_1">
+            <img class="imagen" src="https://imgur.com/tVTpg9i.png" alt="american bully en venta_2" title="american bully en venta_2">
+            <img class="imagen" src="https://imgur.com/oxFgRE6.png" alt="american bully en venta_3" title="american bully en venta_3">
+            <img class="imagen" src="https://imgur.com/yfT1uhM.png" alt="american bully en venta_4" title="american bully en venta_4">
+            <img class="imagen" src="https://imgur.com/OiQyzsl.png" alt="american bully en venta_5" title="american bully en venta_5">
+        </div>
+    </aside>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/particles.min.php"></script>

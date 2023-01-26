@@ -1,4 +1,4 @@
-<link type="text/css" rel="stylesheet" href="css/footerStyle.php">
+<link type="text/css" rel="stylesheet" href="css/footerStyle.css">
 <footer>
     <div id="content">
         <div>
@@ -19,5 +19,5 @@
             <p>telofono 1</p>
         </div>
     </div>
-    <p>Bully Cali Camp &copy; 2023 || Designed by Sebastian Fals</p>
+    <p>Bully Cali Camp &copy; 2023 || Designed by </p>
 </footer>

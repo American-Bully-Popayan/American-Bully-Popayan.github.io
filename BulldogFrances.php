@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="Media/Logo-min.png">
     <title>Bulldog Frances</title>
-    <link type="text/css" rel="stylesheet" href="css/style.php">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div id="particles-js"></div>
@@ -14,7 +14,7 @@
     <?php include("Contenido/header.php") ?>
 
     <div class="content">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <?php include("Cachorros/blue-merle.php")?>
     </div>
 
     <?php include("Contenido/footer.php")?>
