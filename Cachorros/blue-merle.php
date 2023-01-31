@@ -1,9 +1,13 @@
-<link rel="stylesheet" href="../css/dogieStyle.css">
-<link rel="stylesheet" href="../css/style.css">
-<?php $ruta = "../Media/sliders/blue-merle/ejemplo";?>
+<?php
+     $ruta = "Media/sliders/blue-merle/ejemplo";
+    require_once 'config.php';
+?>
+
+<link rel="stylesheet" href="<?= $ruta_principal?>/css/dogieStyle.css">
+
 <div class="dogiecontent">
     <div id="slider">
-    <?php include("../Contenido/slider.php"); ?>
+    <?php include("Contenido/slider.php"); ?>
     </div>
     <div id="text">
         <h2>Cachorro Blue-merle</h2>

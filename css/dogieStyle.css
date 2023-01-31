@@ -5,23 +5,25 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: darkgrey;
+    background-color: rgb(41, 41, 41);
     border-color: white;
     border: 10em;
     margin: 1rem;
     align-items: center;
     justify-content: center;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 #slider
 {
-    margin:0.5rem;
-    max-width: 100vh;
+    max-width: 50vh;
 }
 
 #text
 {
-    min-width: 30rem;
+    font-size: large;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     align-content:stretch;

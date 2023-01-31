@@ -1,3 +1,8 @@
+<?php 
+ $ruta = "Media/sliders/blue-merle/ejemplo";
+require_once 'config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,13 +16,15 @@
 <body>
     <div id="particles-js"></div>
 
-    <?php include("Contenido/header.php") ?>
+    <?php include("Contenido/header.php"); ?>
 
     <div class="content">
-    <?php include("Cachorros/blue-merle.php")?>
+    <?php 
+    include("Cachorros/blue-merle.php");
+    ?>
     </div>
 
-    <?php include("Contenido/footer.php")?>
+    <?php include("Contenido/footer.php");?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/particles.min.php"></script>

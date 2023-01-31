@@ -1,5 +1,7 @@
 <div class="slider">
             <?php
+                require_once 'config.php';
+    
                 $ids = array(1,2,3,4,5);
                 $alt = array(
                     "Slide 1",
@@ -16,14 +18,14 @@
             <div class="slideshow">
                 <?php for($s=0;$s<$max;$s++){ ?>
                 <div class="item-slide">
-                    <img src="<?= $ruta; ?><?= $ids[$s]; ?>.jpeg" alt="<?= $alt[$s]; ?>" />
+                    <img src="<?= $ruta_dinamica; ?><?= $ids[$s]; ?>.jpeg" alt="<?= $alt[$s]; ?>" />
                 </div>
                 <?php } ?>
             </div>
             <div class="pagination">
                 <?php for($s=0;$s<$max;$s++){ ?>
                 <label class="pag-item" for="<?= $ids[$s]; ?>">
-                    <img src="<?= $ruta; ?><?= $ids[$s]; ?>.jpeg" alt="<?= $alt[$s]; ?>" />
+                    <img src="<?= $ruta_principal . "/Media/sliders/Botones/" ?>1.png" alt="<?= $alt[$s]; ?>" />
                 </label>
                 <?php } ?>
             </div>
