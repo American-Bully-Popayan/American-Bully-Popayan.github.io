@@ -17,6 +17,13 @@ require_once "config.php";
         {
             background-image: url(./Media/headerImage2-min.jpeg);
         }
+        @media screen and (max-width: 425px) {
+    .header:before
+{
+    background-size: cover;
+    background-position: -250px;
+}
+}
     </style>
 </head>
 <body>
