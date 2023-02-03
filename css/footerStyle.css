@@ -29,11 +29,15 @@ footer
     margin: 2vh;
     justify-content: space-between;
 }
+
+#content div{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+}
 @media screen and (max-width: 538px)  {
     #content div{
-        width: 48vw;
-        display: flex;
-        flex-direction: column;
+        width: 100%;
         font-size: x-large;
     }
 }
@@ -41,8 +45,6 @@ footer
 {
     #content div{
         width: 48vw;
-        display: flex;
-        flex-direction: column;
         font-size: large;
     }
 }

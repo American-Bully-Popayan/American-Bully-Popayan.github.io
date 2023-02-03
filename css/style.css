@@ -340,6 +340,7 @@ iframe
 }
 
 }
+
 .lista_hero
 {
     list-style-position: outside;
@@ -579,6 +580,8 @@ input[id="5"]:checked ~ .pagination .pag-item[for="5"]{
 .navigation {
     height: 70px;
     background: #001628;
+    position: relative;
+    z-index: 99;
   }
   
   nav {

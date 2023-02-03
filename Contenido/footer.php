@@ -3,11 +3,9 @@
     <div id="content">
         <div>
             <h2>Nuestras redes sociales</h2>
-
             <a href="https://www.facebook.com/profile.php?id=100088932885891&mibextid=LQQJ4d" target="_blank"><img width="50hv" src="./Media/iconos/facebook-logo.png" alt=""></a>
             <a href="https://instagram.com/frenchsfluffly?igshid=YWJhMjlhZTc=" target="_blank"><img width="50hv" src="./Media/iconos/instagram-logo.png" alt=""></a>
             <a href="https://api.whatsapp.com/send?phone=573162756671" target="_blank"><img width="50hv" src="./Media/iconos/whatsapp-min.png" alt=""></a>  
-
         </div>
         <div>
             <h2>Contacto</h2>

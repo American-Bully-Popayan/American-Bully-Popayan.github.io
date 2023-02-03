@@ -11,8 +11,8 @@
                     <li><a href="https://bullycalicamp.com.co/">Inicio</a></li>
                     <li> <a href="#">Razas</a>
                     <ul class="nav-submenu">
-                        <li><a href="/programacion">Bulldog Frances</a></li>
-                        <li><a href="/diseno">American Bully</a></li></ul> </li>
+                        <li><a href="BulldogFrances">Bulldog Frances</a></li>
+                        <li><a href="AmericanBully">American Bully</a></li></ul> </li>
                         <li><a target="_blank" href="https://api.whatsapp.com/send?phone=573162756671">Contacto</a></li>
                 </ul>
             </nav>
