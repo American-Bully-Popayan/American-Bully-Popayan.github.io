@@ -1,5 +1,22 @@
 <div class="supreme-background">
         <div class="header">
+        <section class="navigation">
+            <nav>
+                <div class="nav-movil">
+                    <a id="nav-boton" href="#!">
+                        <span></span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="/American-Bully/">Inicio</a></li>
+                    <li> <a href="#">Razas</a>
+                    <ul class="nav-submenu">
+                        <li><a href="/programacion">Bulldog Frances</a></li>
+                        <li><a href="/diseno">American Bully</a></li></ul> </li>
+                        <li><a target="_blank" href="https://api.whatsapp.com/send?phone=573162756671">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
             <div class="header-content">
                 <div class="site-title-wrapper">                    
                     <h1 class="site-title"><img class="imagen" src="Media/Logo-min.png" width="50vw">Bully Cali Camp</h1>
@@ -18,5 +35,6 @@
                         </div>
                     </div>
             </div>
+            
         </div>
     </div>

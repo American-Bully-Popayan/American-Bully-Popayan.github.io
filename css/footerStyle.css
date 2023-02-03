@@ -32,4 +32,6 @@ footer
 
 #content div{
     width: 48vw;
+    display: flex;
+    flex-direction: column;
 }

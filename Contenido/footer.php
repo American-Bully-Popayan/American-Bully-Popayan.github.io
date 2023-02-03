@@ -4,20 +4,20 @@
         <div>
             <h2>Nuestras redes sociales</h2>
 
-            <p>red 1</p>
-            <p>red 2</p>
-            <p>red 3</p>   
+            <a href="https://www.facebook.com/profile.php?id=100088932885891&mibextid=LQQJ4d" target="_blank"><img width="50hv" src="./Media/iconos/facebook-logo.png" alt=""></a>
+            <a href="https://instagram.com/frenchsfluffly?igshid=YWJhMjlhZTc=" target="_blank"><img width="50hv" src="./Media/iconos/instagram-logo.png" alt=""></a>
+            <a href="https://api.whatsapp.com/send?phone=573162756671" target="_blank"><img width="50hv" src="./Media/iconos/whatsapp-min.png" alt=""></a>  
 
         </div>
         <div>
             <h2>Contacto</h2>
 
             <h4>Email</h4>
-            <p>email1</p>
+            <p>frenchsfluffly02@gmail.com</p>
 
             <h4>Telefono</h4>
-            <p>telofono 1</p>
+            <p>+57 316 2756671</p>
         </div>
     </div>
-    <p>Bully Cali Camp &copy; 2023 || Designed by </p>
+    <p>Bully Cali Camp &copy; 2023 || Designed by Falsourt studios</p>
 </footer>

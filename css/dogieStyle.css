@@ -10,9 +10,10 @@
     border: 10em;
     margin: 1rem;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     border-radius: 1rem;
     padding: 1rem;
+    width: 70%;
 }
 
 #slider
