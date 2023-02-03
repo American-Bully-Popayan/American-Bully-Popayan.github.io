@@ -71,7 +71,7 @@ particlesJS(
             "nb_sides": 5
           },
           "image": {
-            "src": "Media/Iconos/pataDePerro-min.png",
+            "src": "Media/iconos/pataDePerro-min.png",
             "width": 200,
             "height": 200
           }

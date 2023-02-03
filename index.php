@@ -7,8 +7,8 @@
     <!--Favicon-->
     <link rel="shortcut icon" type="image/png" href="Media/Logo-min.png">
     <!--Core theme CSS-->
-    <link rel="stylesheet" type="text/css" href="css/style.php">
-    <title>American Bully Popay&aacute;n - Inicio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Inicio</title>
     <style>
         .header:before
         {

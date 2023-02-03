@@ -10,7 +10,7 @@ require_once "config.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="Media/Logo-min.png">
     <title>American Bully</title>
-    <link type="text/css" rel="stylesheet" href="css/style.php">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./css/dogieStyle.css">
     <style>
         .header:before
