@@ -44,6 +44,20 @@ body
   position: relative;
 }
 
+.header:before
+        {
+            content: "";
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            height: 100%;
+            opacity: 0.4;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
 .header-content
 {
     position: relative;
@@ -245,7 +259,7 @@ main{
     flex-direction: row;
     justify-content: center;
 }
-@media screen and (min-width: 768px)
+@media screen and (min-width: 769px)
 {
     #imagenGaleria
     {
@@ -279,8 +293,14 @@ main{
     height: auto;
     margin:  1vh;
 }
+
+iframe
+{
+    width: 50rem;
+    height: 25rem;
 }
-@media screen and (max-width: 538px)
+}
+@media screen and (max-width: 768px)
 {
     #imagenGaleria
     {
@@ -313,8 +333,13 @@ main{
     height: auto;
     margin:  1vh;
 }
+iframe
+{
+    width: 15rem;
+    height: 10rem;
 }
 
+}
 .lista_hero
 {
     list-style-position: outside;

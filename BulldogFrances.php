@@ -15,17 +15,15 @@
     <style>
         .header:before
         {
-            content: "";
-            position: absolute;
-            width: 100%;
-            left: 0;
-            top: 0;
-            height: 100%;
-            opacity: 0.4;
             background-image: url(./Media/headerImage1-min.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
         }
+        @media screen and (max-width: 425px) {
+    .header:before
+{
+    background-size: cover;
+    background-position: -550px;
+}
+}
     </style>
 </head>
 <body>

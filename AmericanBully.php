@@ -15,16 +15,7 @@ require_once "config.php";
     <style>
         .header:before
         {
-            content: "";
-            position: absolute;
-            width: 100%;
-            left: 0;
-            top: 0;
-            height: 100%;
-            opacity: 0.4;
             background-image: url(./Media/headerImage2-min.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
         }
     </style>
 </head>
