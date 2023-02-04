@@ -70,18 +70,12 @@
             </div>
             <div id="text">
                 <h2>Cachorro Blue-merle</h2>
-                <p>- Nacido 1 de octubre del 2022</p>
-                <br>
-                <p>- Portador de Cocoa, Blue y AT</p>
-                <br>
-                <p>- Desparasitado</p>
-                <br>
-                <p>- Completamente vacunado</p>
-                <br>
+                <p>- Nacido 1 de octubre del 2022</p>                
+                <p>- Portador de Cocoa, Blue y AT</p>                
+                <p>- Desparasitado</p>            
+                <p>- Completamente vacunado</p>                
                 <p>- Viene de una línea de Bulldog Francés esponjosos y peludos</p>
-                <br>
                 <p>- Excelente estructura</p>
-                <br>
                 <p>- &Ntilde;ato y sin cola</p>
             </div>
         </div>
@@ -122,18 +116,12 @@
             </div>
             <div id="text">
                 <h2>Cachorro Fawn-merle</h2>
-                <p>- Nacido 1 de octubre del 2022</p>
-                <br>
-                <p>- Portador de Cocoa, Blue y AT</p>
-                <br>
-                <p>- Desparasitado</p>
-                <br>
-                <p>- Completamente vacunado</p>
-                <br>
+                <p>- Nacido 1 de octubre del 2022</p>                
+                <p>- Portador de Cocoa, Blue y AT</p>                
+                <p>- Desparasitado</p>                
+                <p>- Completamente vacunado</p>                
                 <p>- Viene de una línea de Bulldog Francés esponjosos y peludos</p>
-                <br>
                 <p>- Excelente estructura</p>
-                <br>
                 <p>- &Ntilde;ato y sin cola</p>
             </div>
         </div>

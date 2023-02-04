@@ -30,21 +30,30 @@ footer
     justify-content: space-between;
 }
 
-#content div{
+#content #div{
     display: flex;
     flex-direction: column;
-    font-size: x-large;
+    font-size: large;
+}
+.social{
+    display: flex;
+    flex-direction: column;
 }
 @media screen and (max-width: 538px)  {
-    #content div{
+    #content #div{
         width: 100%;
-        font-size: x-large;
     }
+    .social{
+        width: 70%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 1em;
+    }
+
 }
 @media screen and (min-width: 768px)
 {
-    #content div{
+    #content #div{
         width: 48vw;
-        font-size: large;
     }
 }

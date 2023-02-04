@@ -562,19 +562,11 @@ input[id="4"]:checked ~ .slideshow{
 input[id="4"]:checked ~ .pagination .pag-item[for="4"]{
     background: #FFF;
 }
-input[id="5"]:checked ~ .slideshow{
-    animation: none;
-    transform: translate3d(calc(-100% * 4),0,0);
-}
-input[id="5"]:checked ~ .pagination .pag-item[for="5"]{
-    background: #FFF;
-}
 @keyframes autoplay{
-    20%{ transform: translate3d(calc(-100% * 0), 0, 0); }
-    40%{ transform: translate3d(calc(-100% * 1), 0, 0); }
-    60%{ transform: translate3d(calc(-100% * 2), 0, 0); }
-    80%{ transform: translate3d(calc(-100% * 3), 0, 0); }
-    100%{ transform: translate3d(calc(-100% * 4), 0, 0); }
+    25%{ transform: translate3d(calc(-100% * 0), 0, 0); }
+    50%{ transform: translate3d(calc(-100% * 1), 0, 0); }
+    75%{ transform: translate3d(calc(-100% * 2), 0, 0); }
+    100%{ transform: translate3d(calc(-100% * 3), 0, 0); }
 }
 /*<------------>*/
 .navigation {
