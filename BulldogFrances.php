@@ -32,6 +32,7 @@
     <?php include("Contenido/header.php"); ?>
 
     <div class="content">
+        <h1>Venta de Bulldog Franc&eacute;s</h1>
         <h2>Nuestros cachorros disponibles</h2>
         <!-- Cachorro1 !-->
         <div class="dogiecontent">
@@ -142,9 +143,9 @@
     </div>
 
     <?php include("Contenido/footer.php");?>
-    <a href="https://api.whatsapp.com/send?phone=573162756671" class="btn-wsp" target="_blank"><img src="https://imgur.com/01DuuRa.png" width="55px"alt=""></a>
+    <a href="https://wa.me/573162756671?text=Hola!%20estoy%20interesado%20en%20conocer%20más%20información%20sobre%20los%20cachorros%20bulldog%20frances%20fluffy" class="btn-wsp" target="_blank"><img src="https://imgur.com/01DuuRa.png" width="55px"alt=""></a>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script type="text/javascript" src="js/particles.min.php"></script>
     <script type="text/javascript" src="js/script.php"></script>
 </body>

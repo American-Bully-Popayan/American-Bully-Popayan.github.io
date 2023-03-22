@@ -26,11 +26,13 @@
                         <div class="hero-inner"> 		
                                 <div class="textwidget primer-widgets primer-hero-text-widget">
                                     <h2 class="widget-title">Venta de cachorros American Bully & Bulldog Franc&eacute;s</h2><br>
+                                    <ul>
                                     <li class="lista_hero">Buscan su nuevo hogar</li>
                                     <li class="lista_hero">Aplicativo ABKC</li>
                                     <li class="lista_hero">1 vacuna</li>
                                     <li class="lista_hero">Desparasitados</li>
                                     <li class="lista_hero">Env&iacute;os a todo el pa&iacute;s</li>
+                                    </ul>
                                 </div>
                         </div>
                     </div>
